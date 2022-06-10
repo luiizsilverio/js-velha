@@ -21,6 +21,11 @@ h1 {
     margin: 0 10px;
     background: #3fffa3;
     margin-bottom: 24px;
+    transition: filter .2s;
+}
+
+#buttons-container button:active {
+    filter: brightness(0.7);
 }
 
 /* -- JOGO -- */
@@ -79,7 +84,7 @@ h1 {
 
 /* -- CLASSE PARA ESCONDER -- */
 
-.hide__ {
+.hide {
     display: none !important;
 }
 
@@ -129,8 +134,7 @@ h1 {
     top: 160px;
     width: 500px;
     font-size: 50px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 20px;
-    display: none;
 }
